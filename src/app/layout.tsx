@@ -29,9 +29,15 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </Providers>
+        <Script
+          src="https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
+          type="module"
+          data-account="m71j5is6hr"
+        ></Script>
       </body>
     </html>
   );
 }
 
 import { Providers } from "./providers";
+import Script from "next/script";

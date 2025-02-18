@@ -29,11 +29,11 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </Providers>
-        <Script
+        {/* <Script
           src="https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
           type="module"
           data-account="m7a3bx74t0"
-        ></Script>
+        ></Script> */}
       </body>
     </html>
   );

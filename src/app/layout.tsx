@@ -32,7 +32,7 @@ export default function RootLayout({
         <Script
           src="https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
           type="module"
-          data-account="m84b615je6"
+          data-account="m84banbhpz"
         ></Script>
       </body>
     </html>

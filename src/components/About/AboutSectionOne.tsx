@@ -61,8 +61,14 @@ const AboutSectionOne = () => {
                   src="/images/about/about-image-dark.svg"
                   alt="about-image"
                   fill
+                  useMap="#workmap"
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
+                <map name="workmap">
+                  <area href="#" coords="301,479,0,1" shape="rect" />
+                  <area href="#" coords="332,0,499,278" shape="rect" />
+                  <area href="#" coords="331,309,497,479" shape="rect" />
+                </map>
               </div>
             </div>
           </div>

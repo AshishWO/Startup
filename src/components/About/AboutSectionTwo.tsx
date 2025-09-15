@@ -57,6 +57,38 @@ const AboutSectionTwo = () => {
           </div>
         </div>
       </div>
+      <div className="mx-auto my-12 flex w-[1450px] flex-wrap gap-4">
+        <video
+          src="https://assets.ign.com/videos/zencoder/2025/08/02/1920/b6a24277-29ad-42f4-b112-bdaa97c4992d-1754148199.mp4"
+          controls
+          width={700}
+          height={400}
+        />
+        <video
+          src="https://assets.ign.com/videos/zencoder/2025/08/07/1920/dbe26a20-3606-4e66-82ba-06f360da828a-1754592650.mp4"
+          controls
+          width={700}
+          height={400}
+        />
+        <video
+          src="https://assets.ign.com/videos/zencoder/2025/05/19/1920/4f948a09-8b90-47a4-abef-4d6429d1c9a7-1747660588.mp4"
+          controls
+          width={700}
+          height={400}
+        />
+        <video
+          src="https://assets.ign.com/videos/zencoder/2025/08/06/1920/828d334c-6537-4ce8-af4a-8dd6054006ca-1754521511.mp4"
+          controls
+          width={700}
+          height={400}
+        />
+        <video
+          src="https://assets.ign.com/videos/zencoder/2025/08/05/1920/9307bd2d-295d-487b-b70d-f2786892a047-1754405477.mp4"
+          controls
+          width={700}
+          height={400}
+        />
+      </div>
     </section>
   );
 };

@@ -14,7 +14,7 @@ const NewsLatterBox = () => {
         Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
         massa quis lectus.
       </p>
-      <div>
+      <form>
         <input
           type="text"
           name="name"
@@ -35,7 +35,7 @@ const NewsLatterBox = () => {
         <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
           No spam guaranteed, So please don’t send any spam mail.
         </p>
-      </div>
+      </form>
 
       <div>
         <span className="absolute left-2 top-7">

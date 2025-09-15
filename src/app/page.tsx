@@ -17,6 +17,13 @@ export const metadata: Metadata = {
   // other metadata
 };
 
+export const viewport = {
+  userScalable: false,
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export default function Home() {
   return (
     <>

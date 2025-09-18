@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang="jp">
       {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -33,6 +33,12 @@ export default function RootLayout({
           src="https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
           type="module"
           data-account="mct0cu52og"
+        ></Script>
+
+        <Script
+          src="https://staging-widget.wokkey.com/scripts/injector.js"
+          type="module"
+          data-bot-id="meu6rz7h6u"
         ></Script>
       </body>
     </html>

@@ -38,7 +38,7 @@ export default function RootLayout({
         <Script
           src="https://staging-widget.wokkey.com/scripts/injector.js"
           type="module"
-          data-bot-id="meu6rz7h6u"
+          data-bot-id="mfqst40zzl"
         ></Script>
       </body>
     </html>

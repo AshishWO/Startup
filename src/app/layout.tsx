@@ -38,8 +38,13 @@ export default function RootLayout({
         <Script
           src="https://staging-widget.wokkey.com/scripts/injector.js"
           type="module"
-          data-bot-id="mfqst40zzl"
+          data-bot-id="mfus9g0l4n"
         ></Script>
+        {/* <Script
+          type="module"
+          data-bot-id="mfuzulm480"
+          src="http://localhost:5500/scripts/injector.js"
+        ></Script> */}
       </body>
     </html>
   );

@@ -29,17 +29,22 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
         </Providers>
-        {/* <Script
+        <Script
           src="https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
           type="module"
           data-account="mct0cu52og"
+        ></Script>
+        {/* <Script
+          src="http://127.0.0.1:5500/test-live/injector.js"
+          type="module"
+          data-account="m6ertwhy4i"
+          strategy="beforeInteractive"
         ></Script> */}
-
-        <Script
+        {/* <Script
           src="https://staging-widget.custama.com/scripts/injector.js"
           type="module"
           data-bot-id="mfus9g0l4n"
-        ></Script>
+        ></Script> */}
         {/* <Script
           type="module"
           data-bot-id="mfuzulm480"

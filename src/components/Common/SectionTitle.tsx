@@ -11,6 +11,7 @@ const SectionTitle = ({
   center?: boolean;
   mb?: string;
 }) => {
+  console.log({ title });
   return (
     <>
       <div

@@ -29,6 +29,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+                        id="name"
                         placeholder="Enter your name"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -44,6 +45,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+                        id="email"
                         placeholder="Enter your email"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -59,6 +61,7 @@ const Contact = () => {
                       </label>
                       <textarea
                         name="message"
+                        id="message"
                         rows={5}
                         placeholder="Enter your Message"
                         className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"

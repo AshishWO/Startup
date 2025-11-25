@@ -30,7 +30,7 @@ export default function RootLayout({
           <ScrollToTop />
         </Providers>
         <Script
-          src="https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
+          src="https://staging-widget.braoza.com/v1/assets/static-pages/injector.js"
           type="module"
           data-account="mct0cu52og"
         ></Script>

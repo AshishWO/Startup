@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 const Hero = () => {
@@ -7,7 +8,13 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        <div className="container">
+        <div style={{ display: "none" }}>
+          <a href="/demo" data-account="this link should fail"></a>
+        </div>
+        <div>
+          <button onClick={() => alert("oops")}>Click me</button>
+        </div>
+        <div aria-hidden="true" className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
@@ -48,9 +55,11 @@ const Hero = () => {
           </div>
         </div>
         <div
+          aria-hidden="true"
           id="new-id"
           className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100"
         >
+          <button onClick={() => alert("oops")}>Click me</button>
           <svg
             width="450"
             height="556"

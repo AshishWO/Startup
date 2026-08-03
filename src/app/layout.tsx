@@ -32,7 +32,7 @@ export default function RootLayout({
         <Script
           src="https://staging-widget.braoza.com/v1/assets/static-pages/injector.js"
           type="module"
-          data-account="mct0cu52og"
+          data-account="mct0cu52o"
         ></Script>
         {/* <Script
           src="http://127.0.0.1:5500/test-live/injector.js"

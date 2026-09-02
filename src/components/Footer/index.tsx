@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import TriggerTestPanel from "./TriggerTestPanel";
+
 const Footer = () => {
   return (
     <>
@@ -211,6 +213,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
+          <TriggerTestPanel />
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
